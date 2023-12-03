@@ -1,0 +1,9 @@
+{
+  "pages": [
+    {
+      "title": "Hello Plugin",
+      "name": "helloPlugin",
+      "demoSections": [{ "name": "helloPluginLanding" }]
+    }
+  ]
+}

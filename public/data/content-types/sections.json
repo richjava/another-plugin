@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "header": { "name": "header", "category": "layout" },
+    "footer": { "name": "footer", "category": "layout" },
+    "helloPluginLanding": {
+      "name": "helloPluginLanding",
+      "category": "sections",
+      "fields": { "heading": { "type": "string" } }
+    }
+  }
+}
