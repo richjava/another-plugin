@@ -3,7 +3,7 @@ export default function Cover1({ content }: any) {
   if (!content) return <></>;
   return (
     <section id="cover-1" className="container template">
-      <DataView sectionName="Cover1" content={content} />
+      <p>Plugin: Cover 1</p>
     </section>
   );
 }
