@@ -1,8 +1,8 @@
 {
   "pages": [
     {
-      "title": "Hello Plugin",
-      "name": "helloPlugin",
+      "title": "Home",
+      "name": "home",
       "demoSections": [{ "name": "helloPluginLanding" }]
     }
   ]
