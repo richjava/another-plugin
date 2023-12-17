@@ -4,7 +4,7 @@
       "title": "Hello Plugin",
       "description": "Hello World for a plugin",
       "name": "helloPlugin",
-      "moduleParts": [{ "name": "helloPluginBase" }],
+      "modulePages": [{ "name": "helloPluginBase" }],
       "required": true
     }
   ]
