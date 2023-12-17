@@ -1,9 +1,9 @@
 {
-  "moduleParts": [
+  "modulePages": [
     {
       "title": "Hello Plugin Base",
       "name": "helloPluginBase",
-      "page": { "name": "helloPlugin" },
+      "page": { "name": "home" },
       "sections": [{ "name": "helloPluginLanding" }]
     }
   ]
