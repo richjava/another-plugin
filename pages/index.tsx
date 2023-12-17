@@ -1,28 +1,12 @@
-import Attribution from "@/components//plugins/richjava-another-plugin/shared/attribution/attribution";
-import { Intro } from "@/components//plugins/richjava-another-plugin/shared/intro/intro";
-import Links from "@/components//plugins/richjava-another-plugin/shared/links/links";
-import Link from "next/link";
-import styles from "../styles//plugins/richjava-another-plugin/Home.module.css";
+import { withRouter } from "next/router";
+import { getConfig } from "@builtjs/theme";
+import Page from "../lib/page";
 
-/**
- * This plugin does not use any sections on the home page, so this
- * page will not be included in the plugin import.
- * @see https://builtjs.com/docs/plugins/home-page
- */
-export default function HomePage() {
-  return (
-    <div className={styles.main}>
-      <Intro type="plugin" content={{ global: null }} />
-      <div className="container">
-        <h2>Pages</h2>
-        <ul>
-          <li>
-            <Link href="/hello-plugin">Hello Plugin</Link>
-          </li>
-        </ul>
-      </div>
-      <Links />
-      <Attribution />
-    </div>
-  );
+export default withRouter(Page);
+
+export async function getStaticProps() {
+  const config = await getConfig("home");
+  return {
+    props: { config },
+  };
 }
