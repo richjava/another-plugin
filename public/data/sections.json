@@ -20,9 +20,13 @@
     },
     {
       "name": "helloPluginLanding",
-      "category": "sections",
+      "category": "body",
       "title": "Hello Plugin Landing",
-      "attributes": { "heading": "Hello Plugin!" },
+      "description": "",
+      "attributes": {
+        "heading": "Hello Plugin!",
+        "preheadings": [{ "title": "My preheading" }]
+      },
       "templates": ["cover1"],
       "defaultTemplate": { "name": "cover1" },
       "position": "middle",
