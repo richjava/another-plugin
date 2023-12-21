@@ -7,7 +7,7 @@
       "category": "body",
       "fields": {
         "heading": { "type": "string" },
-        "preheadings": { "type": "element", "repeatable": true }
+        "preheadings": { "type": "element", "repeatable": true, "name": "preheading" }
       }
     }
   }
