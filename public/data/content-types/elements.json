@@ -1,1 +1,23 @@
-{ "elements": [{"name": "preheading"}] }
+{
+  "elements": [
+    {
+      "name": "preheading",
+      "category": "elements",
+      "title": "Preheading",
+      "fields": {
+        "slug": {
+          "type": "uid",
+          "targetField": "text",
+          "required": true
+        },
+        "text": {
+          "type": "string"
+        },
+        "type": {
+          "type": "enumeration",
+          "enum": ["line", "dot", "plain"]
+        }
+      }
+    }
+  ]
+}
