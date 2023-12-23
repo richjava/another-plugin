@@ -15,7 +15,7 @@
         },
         "type": {
           "type": "enumeration",
-          "enum": ["line", "dot", "plain"]
+          "values": ["line", "dot", "plain"]
         }
       }
     }

@@ -23,7 +23,7 @@
       "category": "body",
       "title": "Hello Plugin Landing",
       "description": "",
-      "attributes": {
+      "data": {
         "heading": "Hello Plugin!",
         "preheadings": [{ "title": "My preheading" }]
       },
